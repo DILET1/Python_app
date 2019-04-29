@@ -1,0 +1,11 @@
+{% extends "firstApp/base.html" %}
+
+{% block main %}
+<h1> List of people on website</h1>
+<ol>
+    {% for person in persons %}
+    <li>{{person.firstname}}</li>
+    {% endfor %}
+</ol>
+
+{% endblock %}

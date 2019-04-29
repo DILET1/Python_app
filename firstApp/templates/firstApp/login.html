@@ -1,0 +1,14 @@
+{% extends "firstApp/base.html"}
+{% block main %}
+<h1>Login, punk!!!!!!!!!</h1>
+<form action="../greet.html" , method="POST">
+    {% csrf_token %}
+    <label>Username</label>
+    <input type="text" name="uname">
+    <label>Password</label>
+    <br>
+    <input type="password" name="pword">
+    <button type="submit">Login</button>
+    <br>
+</form>
+{% endblock %}
