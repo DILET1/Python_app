@@ -10,6 +10,7 @@ pylint = "*"
 heroku = "*"
 gunicorn = "*"
 django = "*"
+whitenoise = "*"
 
 [requires]
 python_version = "3.7"
