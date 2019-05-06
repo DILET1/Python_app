@@ -25,7 +25,9 @@ SECRET_KEY = 'l(&@s5v38auzyl8)%eyv#yl_05lawj%(j(r(whprqtl=2(l0qu'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'https://polar-reaches-83933.herokuapp.com/'
+]
 
 
 # Application definition
