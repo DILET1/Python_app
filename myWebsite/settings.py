@@ -26,7 +26,7 @@ SECRET_KEY = 'l(&@s5v38auzyl8)%eyv#yl_05lawj%(j(r(whprqtl=2(l0qu'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'polar-reaches-83933.herokuapp.com/'
+    'polar-reaches-83933.herokuapp.com'
 ]
 
 
