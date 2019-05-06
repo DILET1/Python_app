@@ -21,5 +21,6 @@ urlpatterns = [
     path('myApp/', include('myApp.urls')),
     path('firstApp/', include('firstApp.urls')),
     path('kewlWebsites/', include('firstApp.urls')),
+    path('/', include('firstapp.urls'))
 
 ]
